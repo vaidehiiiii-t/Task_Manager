@@ -48,7 +48,7 @@ export function Navbar() {
               <span className="text-white text-xs font-bold tracking-tight">T</span>
             </div>
             <span className="font-semibold text-sm tracking-tight text-black" style={{ letterSpacing: '-0.3px' }}>
-              TaskFlow
+              Taskcanvas
             </span>
           </Link>
 

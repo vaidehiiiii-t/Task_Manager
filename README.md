@@ -1,6 +1,6 @@
-# TaskFlow — Team Task Manager
+# TaskCanvas — Team Task Manager
 
-TaskFlow is a collaborative full-stack task management application designed for modern teams. Built with a beautiful, Figma-inspired monochromatic "warm canvas" design system, it provides a seamless workspace for creating projects, assigning tasks, and tracking team progress.
+TaskCanvas is a collaborative full-stack task management application designed for modern teams. Built with a beautiful, Figma-inspired monochromatic "warm canvas" design system, it provides a seamless workspace for creating projects, assigning tasks, and tracking team progress.
 
 ## ✨ Features
 

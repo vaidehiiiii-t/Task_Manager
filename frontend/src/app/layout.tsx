@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "TaskFlow — Team Task Manager",
+  title: "Task Canvas — Team Task Manager",
   description: "A collaborative task management platform for modern teams. Create projects, assign tasks, and track progress.",
 };
 

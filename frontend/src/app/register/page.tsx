@@ -65,7 +65,7 @@ export default function RegisterPage() {
             <div className="h-8 w-8 rounded-full bg-black flex items-center justify-center">
               <span className="text-white text-sm font-bold">T</span>
             </div>
-            <span className="text-lg font-semibold tracking-tight" style={{ letterSpacing: '-0.3px' }}>TaskFlow</span>
+            <span className="text-lg font-semibold tracking-tight" style={{ letterSpacing: '-0.3px' }}>TaskCanvas</span>
           </div>
 
           <div className="mb-8">
