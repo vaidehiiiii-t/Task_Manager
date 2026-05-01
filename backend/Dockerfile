@@ -29,4 +29,4 @@ RUN prisma generate
 EXPOSE 8000
 
 # Start command (Railway will likely override this using railway.toml startCommand)
-CMD uvicorn main:app --host 0.0.0.0 --port ${PORT:-8000}
+CMD uvicorn main:app --host 0.0.0.0 --port ${PORT:-5000}
