@@ -8,7 +8,7 @@ from app.database import db
 router = APIRouter(prefix="/dashboard", tags=["dashboard"])
 
 
-@router.get("/")
+@router.get("")
 async def get_dashboard(current_user=Depends(get_current_user)):
     # Get all projects user belongs to
     memberships = await db.projectmember.find_many(

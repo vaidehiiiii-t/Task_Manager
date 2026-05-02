@@ -35,7 +35,7 @@ async def require_member(project_id: str, current_user=Depends(get_current_user)
     return current_user
 
 
-@router.post("/", status_code=status.HTTP_201_CREATED)
+@router.post("", status_code=status.HTTP_201_CREATED)
 async def create_project(body: CreateProjectRequest, current_user=Depends(get_current_user)):
     project = await db.project.create(
         data={
@@ -50,7 +50,7 @@ async def create_project(body: CreateProjectRequest, current_user=Depends(get_cu
     return project
 
 
-@router.get("/")
+@router.get("")
 async def list_projects(current_user=Depends(get_current_user)):
     memberships = await db.projectmember.find_many(
         where={"userId": current_user.id},

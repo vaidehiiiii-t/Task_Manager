@@ -36,7 +36,7 @@ class UpdateTaskRequest(BaseModel):
     assignedToId: Optional[str] = None
 
 
-@router.post("/", status_code=status.HTTP_201_CREATED)
+@router.post("", status_code=status.HTTP_201_CREATED)
 async def create_task(
     project_id: str,
     body: CreateTaskRequest,
@@ -61,7 +61,7 @@ async def create_task(
     return _format_task(task)
 
 
-@router.get("/")
+@router.get("")
 async def list_tasks(project_id: str, current_user=Depends(get_current_user)):
     membership = await get_membership(project_id, current_user)
 
