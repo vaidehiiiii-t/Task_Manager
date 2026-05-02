@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     JWT_EXPIRE_MINUTES: int = 10080  # 7 days
     FRONTEND_URL: str = "http://localhost:3000"
     PORT: int = 8000
-    ENVIRONMENT: str = "development"
+    ENVIRONMENT: str = "production"
 
     class Config:
         env_file = ".env"
